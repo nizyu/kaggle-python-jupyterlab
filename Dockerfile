@@ -2,6 +2,7 @@ FROM python:3
 
 env KAGGLE_USERNAME=dummy
 env KAGGLE_KEY=dummy
+env KAGGLE_COMPETITION=titanic
 
 WORKDIR /home/jupyter
 
