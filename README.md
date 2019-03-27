@@ -10,12 +10,12 @@ KaggleをやってみたところWebから使えるノートブックが結構�
 1. KaggleにログインしてAPIトークンを発行し、環境変数にセットしておく
 1. requirements.txtに予め必要なライブラリを記入しておく
 1. $ docker build . -t kaggle-python-local
-1. $ docker run -e KAGGLE_USERNAME -e KAGGLE_KEY -u $(id -u) -p 8888:8888 -v $(pwd)/scripts kaggle-python-local:latest ``[挑戦したいコンペティション]``
+1. $ docker run -e KAGGLE_USERNAME -e KAGGLE_KEY -u $(id -u) -p 8888:8888 -v $(pwd)/note kaggle-python-local:latest ``[挑戦したいコンペティション]``
 1. URLが表示されるのでブラウザでアクセス
 
 
 ## その他
 
-上記の起動のさせ方であればscriptsディレクトリ内にコードが同期されるのでローカルのvimで触ったりもできます。(inputデータが見えないので実行はJupyterから)
+上記の起動のさせ方であればnoteディレクトリ内にコードが同期されるのでローカルのvimで触ったりもできます。(inputデータが見えないので実行はJupyterから)
 
 proxy対応したいけどまだできてない
