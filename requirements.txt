@@ -1,0 +1,13 @@
+jupyter
+
+# 計算
+numpy
+pandas
+scipy
+
+# グラフ描画
+matplotlib
+seaborn
+
+# Kaggle
+kaggle
