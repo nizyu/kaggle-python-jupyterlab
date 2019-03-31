@@ -1,10 +1,6 @@
-jupyterlab
-
 numpy
 pandas
 scipy
 
 matplotlib
 seaborn
-
-kaggle
