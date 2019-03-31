@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a Docker image for joining Kaggle's competition from JypyterLab running locally.
+This is a Docker image for joining Kaggle's competition from JupyterLab running locally.
 
 ## How to use.
 
